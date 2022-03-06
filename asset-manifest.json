@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react_for_biginners/static/js/main.1e40ecdf.js",
-    "index.html": "/react_for_biginners/index.html",
-    "main.1e40ecdf.js.map": "/react_for_biginners/static/js/main.1e40ecdf.js.map"
+    "main.js": "/react_for_beginners/static/js/main.1e40ecdf.js",
+    "index.html": "/react_for_beginners/index.html",
+    "main.1e40ecdf.js.map": "/react_for_beginners/static/js/main.1e40ecdf.js.map"
   },
   "entrypoints": [
     "static/js/main.1e40ecdf.js"
