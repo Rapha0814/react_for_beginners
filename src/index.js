@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import CleanUp from "./CleanUp";
-import CoinTracker from "./CoinTracker";
 import Movies from "./Movies";
-import Todo from "./Todo";
+import "./styles.css";
 
 ReactDOM.render(
   <React.StrictMode>

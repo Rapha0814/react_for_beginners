@@ -1,7 +1,12 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 function Detail() {
+  const navigate = useNavigate();
+  function handleClick() {
+    // path={`${process.env.PUBLIC_URL}/`}
+    navigate(`${process.env.PUBLIC_URL}`, "/");
+  }
   const { id } = useParams();
   const getMovie = async () => {
     const json = await (
@@ -13,7 +18,12 @@ function Detail() {
     getMovie();
   }, []);
   console.log(id);
-  return <h1>Detail</h1>;
+  return (
+    <div>
+      <h1>Detail</h1>
+      <button onClick={handleClick}>홈으로</button>
+    </div>
+  );
 }
 
 export default Detail;
